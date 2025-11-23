@@ -1,0 +1,471 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+section#animate{
+    overflow: hidden;
+}
+/* navbarsection */
+
+.logo{
+    width: 60px;
+    min-height: 40px;
+    /* margin-left: 5px; */
+}
+.navbar{
+    min-height: 70px;
+    width: 100%;
+}
+.nav-link{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.676);
+    /* margin-left: 10px; */
+}
+
+.mynavbar{
+    /* margin: 5px; */
+    min-height: 0px;
+    width: 100%;
+}
+.nav-item{
+    /* padding: 30px; */
+}
+#home{
+    background-image: url(brisket2.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 400px;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.unique{
+    font-size: 50px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+
+}
+.see{
+    margin-top: 50px;
+ 
+    left: 10px;
+    right: 20;
+}
+.cart{
+    color: rgba(240, 248, 255, 0.818);
+    margin-left: 6px;
+    height: 10px;
+    width: 10px;
+    margin-top: 5px;
+}
+.cartlink{
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.78);
+    margin-top: 5px;
+}
+
+.savor{
+    text-align: center;
+    color: rgb(244, 243, 242);
+}
+.btn{
+     
+    margin-bottom: 60px;
+    
+}
+.boxhome{
+    background-color: rgba(240, 171, 80, 0.171);
+    width: 100%;
+    background-size: cover;
+    
+
+}
+
+
+/* blanksection */
+
+#blacksec{
+     width: 100%;
+     min-height: 300px; 
+    background-color: black;
+     
+}
+
+/* linesection1 */
+
+.line1{
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    /* float: right; */
+    /* margin-top: 100px; */
+    margin-left: 300px;
+    
+}
+.line2{
+   height: 2px;
+    width: 200px;
+    background-color: white;
+    /* float: right; */
+    /* margin-top: 30px; */
+    margin-left: 200px;
+} 
+.line4{
+   height: 2px;
+    width: 200px;
+    background-color: white;
+    /* float: left; */
+     
+}
+
+.line3{
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    /* float: left; */
+}
+
+.quote{
+    text-align: center;
+    color: rgb(230, 160, 76);
+}
+ 
+@media(max-width:1400px){
+    .line1{
+    margin-left: 200px;
+    
+}
+.line2{
+
+    margin-left: 100px;
+}
+}
+
+ 
+@media(max-width:992px){
+    
+    .line1,.line2,.line3,.line4{
+        margin: auto;
+    }
+    }
+
+    
+/* uniquesection */
+
+
+
+#sec1{
+    background-image: url(kitchen.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 700px;
+    text-align: center;
+}
+.flavour{
+    text-align: center;
+   font-weight: bold;
+   color: rgb(250, 233, 188);
+   margin-top: 50px;
+   
+}
+.underlineunique{
+    height: 3px;
+    width: 200px;
+    background-color: antiquewhite;
+    margin:auto;
+}
+.serving{
+    color: bisque;
+    margin-top: 20px;
+    
+}
+
+
+/* cateringsection */
+#sec2{
+    background-image: url(s2.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 800px;
+    text-align: center;
+}
+.fork{
+    /* background-image: url(catering.jpg); */
+    height: 200px;
+    width: 200px;
+    
+    align-items: center;
+}
+.catering{
+    text-align: center;
+   font-weight: bold;
+   color: rgb(240, 218, 159);
+   /* margin-top: 100px; */
+   
+}
+.underlinecatering{
+    height: 3px;
+    width: 200px;
+    background-color: antiquewhite;
+    margin:auto;
+}
+.family{
+    color: bisque;
+    margin-top: 20px;
+    /* margin-left: 530px; */
+}
+.btn{
+   
+    /* margin-left: 720px; */
+    /* padding: 10px; */
+}
+
+/* blankwhitesection */
+
+
+
+#whitesec{
+    background-image: url(cooking.jpg);
+    min-height: 300px;
+    background-size: cover;
+}
+.overlaywhite{
+    min-height: 300px;
+    width: 100%;
+    background-color: rgba(245, 244, 242, 0.849);
+}
+/* orangelinesection */
+
+
+.quote{
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+/* bottlesection */ 
+#sec4{
+background-image: url(bottle.jpg);
+background-size: cover;
+min-height: 600px;
+width: 100%;
+text-align: center;
+}
+.underlinebot{
+    height: 3px;
+    width: 150px;
+    background-color: antiquewhite;
+    margin:auto
+    
+}
+
+.bottle{
+    text-align: center;
+    color: rgb(240, 236, 231);
+}
+.river{
+    margin-top: 100px;
+    color: white;
+}
+.wherever{
+    color: white;
+}
+.btn{
+     /* margin-right: 720px; */
+    /* padding: 5px; */
+    /* width: 150px; */
+}
+
+/* LOYALSECTION */
+
+.btn{
+   /* margin-left: 720px; */
+} 
+.loyal{
+    text-align: center;
+   font-weight: bold;
+   color: rgb(240, 218, 159);
+   margin-top: 50px;
+   
+}
+#sec5{
+    background-image: url(loyalnew.jpg);
+    width: 100%;
+    background-size: cover;
+    min-height: 700px;
+    padding: 10px;
+    text-align: center;
+}
+.loyalr{
+   
+    height: 150px;
+    width: 200px;
+    
+}
+.loyal,.light{
+color: aliceblue;
+padding: 10px;
+}
+
+/* orangelinesection */
+
+#orangesec{
+    background-image: url(family.jpg);
+    min-height: 300px;
+    background-size: cover;
+}
+.overlayorange{
+   min-height: 300px;
+    width: 100%;
+    background-color: rgba(231, 144, 12, 0.849);
+}
+/* orangelinesection */
+
+.quotewhite{
+    text-align: center;
+    color: rgba(78, 33, 3, 0.795);
+    font-style: italic;
+}
+
+/* CUTTINGSECTION */
+
+#sec7{
+    background-image: url(cutting.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.overlaycutting{
+   
+    background-color: rgba(82, 71, 71, 0.486);
+    text-align: center;
+}
+.begning{
+    text-align: center;
+   font-weight: bold;
+   color: rgb(240, 218, 159);
+   margin-top: 50px;
+   
+}
+.underlinecutting{
+    height: 3px;
+    width: 200px;
+    background-color: antiquewhite;
+    
+    margin:auto;
+}
+.rivers{
+    color: bisque;
+    margin-top: 20px;
+    /* margin-left: 530px; */
+}
+
+/* linksection */
+
+#sec8{
+    background-color: black;
+    min-height: 400px;
+    
+}
+.links{
+    color: white;
+}
+
+.boxlinkr{
+   
+   height: 150px;
+   width: 200px;
+   /* background-image: url(darkr-removebg-preview.png); */
+   /* background-size:cover; */
+   /* padding: 50px; */
+   /* margin-left: 50px; */
+   margin-top: 0px;
+   margin-bottom: 150px;
+   /* position: absolute; */
+   text-align: center;
+   
+}
+.overlayr{
+    min-height: 200px;
+    width:200px;
+    background-color: rgba(214, 214, 212, 0.226);
+    /* margin-left: 30px; */
+    margin-top: 70px;
+    text-align: center;
+    
+}
+
+.pitmaster{
+/* margin-top: 100px; */
+color: white;
+font-family:Constantia;
+font-style: italic;
+margin-bottom: 300px;
+text-align: center;
+padding: 0px;
+font-size: 23px;
+}
+
+@media(max-width:460px){
+    .boxlinkr{
+        text-align: center;
+    }
+}
+
+
+
+
+/* finalsection */
+.container9{
+    min-height: 80px;
+    background-color: rgb(73, 61, 61);
+  
+}
+.png{
+    height: 25px;
+    /* width: 25px; */
+   margin-top: 20px;
+    text-align: center;
+    
+}
+
+.boxlink{
+    color: rgba(240, 248, 255, 0.76);
+    min-height: 200px;
+    /* width: 200px; */
+    text-align: center;
+}
+
+/* finalsection */
+
+.boxfinal1{
+    color:rgba(240, 248, 255, 0.418) ;
+    text-align: center;
+}
+.boxfinal2{
+    
+    
+    text-align: center;
+}
+
+
+.btncontact{
+    margin-left: 3px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+.arrow{
+    background-color: goldenrod;
+}
+.speciality{
+    margin-left: 15px;
+}
+/* .btnview{
+    width: 20px;
+} */
